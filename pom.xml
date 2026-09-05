@@ -19,7 +19,7 @@
          with the parent's own supported baseline instead of drifting
          again the same way. -->
     <name>Anonymous Uptime Check</name>
-    <description>Allows unauthenticated access to check ability to run new jobs at /anonymousUptimeCheck.
+    <description>Allows unauthenticated access to check ability to run new jobs at /healthz.
         If Jenkins is quieting down, the response is a 503, otherwise a success 200 json repsonse.
         This can be used for external tools to check track uptime statics of Jenkins instance.
     </description>

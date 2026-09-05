@@ -30,6 +30,6 @@ public class AnonymousUptimeCheck implements UnprotectedRootAction {
 
     @CheckForNull
     public String getUrlName() {
-        return "anonymousUptimeCheck";
+        return "healthz";
     }
 }

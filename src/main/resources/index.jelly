@@ -1,5 +1,5 @@
 <?jelly escape-by-default='true'?>
 <div>
-    Allows unauthenticated access to check ability to run new jobs at <code>/anonymousUptimeCheck</code>.
+    Allows unauthenticated access to check ability to run new jobs at <code>/healthz</code>.
     <p>(returns 503 status if Jenkins is in quieting down)</p>
 </div>

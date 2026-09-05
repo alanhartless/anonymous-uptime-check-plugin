@@ -1,7 +1,7 @@
 Anonymous Uptime Check Plugin
 =====================
 
-Allows unauthenticated access to check ability to run new jobs at `/anonymousUptimeCheck`.
+Allows unauthenticated access to check ability to run new jobs at `/healthz`.
 If Jenkins is quieting down, the response is a `503`, otherwise a success `200` json repsonse.
 
 This plugin can be used for external tools _(pingdom, uptrends, pagerduty, etc.)_ to check track uptime statics of Jenkins instance.
